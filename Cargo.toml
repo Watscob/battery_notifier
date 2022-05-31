@@ -1,0 +1,10 @@
+[package]
+name = "battery_notifier"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libnotify = "1.0.3"
+libnotify-sys = "1.0.2"
