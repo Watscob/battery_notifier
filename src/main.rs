@@ -118,5 +118,8 @@ fn main() {
             }
 
         }
+
+        let time_to_wait = time::Duration::from_secs(5 as u64);
+        thread::sleep(time_to_wait);
     }
 }
